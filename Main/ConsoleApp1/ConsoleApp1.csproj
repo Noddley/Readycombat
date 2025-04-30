@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework> <!-- Adjust based on your .NET version -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference the custom LiteDB.dll -->
+    <Reference Include="LiteDB">
+      <HintPath>/Applications/EDGE-6.1.app/Contents/Resources/Data/Managed/LiteDB.dll</HintPath> <!-- Path to your LiteDB.dll -->
+    </Reference>
+  </ItemGroup>
+
+</Project>

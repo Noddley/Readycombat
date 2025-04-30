@@ -1,0 +1,3 @@
+Successfully opened the LiteDB file!
+
+Existing Players in 'player' collection:
